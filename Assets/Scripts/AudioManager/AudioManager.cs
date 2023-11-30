@@ -84,7 +84,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void OnMusic()
+    public void OnMusic()
     {
         PlayerPrefs.SetFloat("MusicVolume", 1f);
 
@@ -97,7 +97,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void OffMusic()
+    public void OffMusic()
     {
         PlayerPrefs.SetFloat("MusicVolume", 0f);
 
@@ -110,7 +110,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void OnSounds()
+    public void OnSounds()
     {
         PlayerPrefs.SetFloat("SoundVolume", 1f);
 
@@ -127,7 +127,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void OffSounds()
+    public void OffSounds()
     {
         PlayerPrefs.SetFloat("SoundVolume", 0f);
 
