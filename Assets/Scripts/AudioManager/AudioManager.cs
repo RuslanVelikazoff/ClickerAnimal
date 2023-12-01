@@ -43,13 +43,10 @@ public class AudioManager : MonoBehaviour
                 s.source = sourceSound;
             }
         }
-        
     }
 
     private void Start()
     {
-        sourceMusic.Play("Music");
-
         foreach (Sound s in sounds)
         {
             if (s.name == "Music")
@@ -65,6 +62,8 @@ public class AudioManager : MonoBehaviour
                 s.source.Volume = s.volume = PlayerPrefs.GetFloat("SoundVolume");
             }
         }
+
+        sourceMusic.Play("Music");
     }
 
     public void PlaySounds(string soundKey)
