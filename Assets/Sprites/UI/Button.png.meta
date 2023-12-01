@@ -300,8 +300,29 @@ TextureImporter:
       name: AllAnimalsSprite
       rect:
         serializedVersion: 2
-        x: 1345
-        y: 1230
+        x: 1140
+        y: 1231
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3c7f2602c374e5292742740d0d98a5
+      internalID: -854501994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearButtonSprite
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2189
         width: 180
         height: 180
       alignment: 0
@@ -311,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc3c7f2602c374e5292742740d0d98a5
-      internalID: -854501994
+      spriteID: e8a578b3f996b4abca3eabd7a8922a22
+      internalID: -1132523153
       vertices: []
       indices: 
       edges: []
@@ -331,6 +352,7 @@ TextureImporter:
       AcceptSprite: -1943639474
       AllAnimalsSprite: -854501994
       ClearBigSprite: 2143987387
+      ClearButtonSprite: -1132523153
       CloseSprite: 314533668
       MusicOffSprite: -220486783
       MusicOnSprite: 191743198

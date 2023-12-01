@@ -14,10 +14,12 @@ public class BonusManager : MonoBehaviour
     [SerializeField]
     private YandexGame sdk;
     private GameManager gameManager;
+    private AnimalButton animalButton;
 
-    public void Initialize(GameManager manager)
+    public void Initialize(GameManager manager, AnimalButton animal)
     {
         gameManager = manager;
+        animalButton = animal;
 
         ButtonClickAction();
 
@@ -60,7 +62,7 @@ public class BonusManager : MonoBehaviour
 
     public void ActivateAdExpBonusCul()
     {
-        Debug.Log("Ad good");
-        //TODO: добавить бонус
+        gameManager.AddExp(10);
+        animalButton.SetAnimalSprite();
     }
 }

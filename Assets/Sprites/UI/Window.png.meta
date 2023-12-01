@@ -179,7 +179,7 @@ TextureImporter:
         width: 596
         height: 766
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,6 +187,27 @@ TextureImporter:
       bones: []
       spriteID: 998770d9211884f20a914ddf70dc2355
       internalID: -253528504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanelSprite
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 854
+        width: 324
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37d53150256b4b0d860805a5c5768d1
+      internalID: -1678216829
       vertices: []
       indices: 
       edges: []
@@ -202,6 +223,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      LevelPanelSprite: -1678216829
       Panel2Sprite: -253528504
       PanelSprite: -731615906
       UpPanelSprite: -596250138
