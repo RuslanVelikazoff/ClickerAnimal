@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using YG;
 
 public class BonusManager : MonoBehaviour
 {
@@ -12,7 +11,7 @@ public class BonusManager : MonoBehaviour
     private float adTimer = 0f;
 
     [SerializeField]
-    private YandexGame sdk;
+    private InterstitialAds ad;
     private GameManager gameManager;
     private AnimalButton animalButton;
 
@@ -55,7 +54,7 @@ public class BonusManager : MonoBehaviour
     private void ActivateAdExpBonus()
     {
         adGameObject.SetActive(false);
-        sdk._RewardedShow(1);
+        ad.ShowAd();
         adClick = true;
         adTimer = 120f;
     }

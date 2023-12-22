@@ -13,7 +13,7 @@ public class AnimationsUI
     {
         Sequence sequence = DOTween.Sequence();
 
-        AudioManager.Instance.PlaySounds("Click");
+        AudioManager.Instance.Play("Click");
 
         sequence.Append(button.transform.DOScale(new Vector3(.8f, .8f, 1f), .3f))
             .Append(button.transform.DOScale(new Vector3(1f, 1f, 1f), .3f))
